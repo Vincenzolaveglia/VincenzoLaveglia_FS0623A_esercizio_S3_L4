@@ -1,0 +1,41 @@
+body{
+    background-color: grey;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+#container>div {
+    display: inline-block;
+    text-align: center;
+    padding: 1em;
+    margin: 0.5%;
+    border: solid;
+    background-color: white;
+}
+
+#container>div.selected {
+    background-color: #ffcc00;
+}
+
+h3 {
+    margin: 0.5%;
+}
+
+#button {
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.8em;
+    padding: 2em;
+    cursor: pointer;
+}
+
+#contenitoreButton {
+    text-align: center;
+    padding: 2%;
+}
